@@ -1,0 +1,2399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CA272E8348BAB4CE0B0C804FB7B818C4 /* FlutterMacOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 624022EE1C2EAB1C3CC38699E1368C5F /* Build configuration list for PBXAggregateTarget "FlutterMacOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FlutterMacOS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		072BE79CEB1081D1FE6CBED789CB31FB /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 499E3722E8DACDC2AAA6C15AD1796520 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2237A5DDF8DB09DD8E779C4B82A62B53 /* ReachabilityConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84DE880C9165BFE616780CF72CD163A /* ReachabilityConnectivityProvider.swift */; };
+		3B2DB86ACD37AAC50E6682216B952966 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E794494AB90477BA94C681E994ADF341 /* Pods-Runner-dummy.m */; };
+		436F2E76D8BA662F7DD9A34D700F9E2B /* shared_preferences_foundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E2B50145FDF89E392031A8142EF997 /* shared_preferences_foundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		556B8AAB4372B9EC3F9CC107DE8A1807 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 07AF15D0FE831EAFA888FF3498984E16 /* PrivacyInfo.xcprivacy */; };
+		5CD20AE8867B9E4CBC5AC1B9E6F44A02 /* PathMonitorConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1043B55C0CCED6C176DEA6B326AD10 /* PathMonitorConnectivityProvider.swift */; };
+		6B1E62EB116E7D7A6252B6F079890306 /* Pods-RunnerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DB54C128E3D88C0C9C7DDEA475ED7 /* Pods-RunnerTests-dummy.m */; };
+		72606198852C5087C7FCB9EA274A8EFC /* SharedPreferencesPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90B18E66A666ADD00316535D565D2A9 /* SharedPreferencesPlugin.swift */; };
+		76396C5FFDEE830D97EF9B22B8CBB9C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DABBDE270C4FEF78B7FF551B4A91483 /* Cocoa.framework */; };
+		76D0455F85D87B8A2ABA7D922465A29D /* shared_preferences_foundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A19CF28EA38E1B5E3CA36DF3DD459976 /* shared_preferences_foundation-dummy.m */; };
+		86395EC0CE044C86D9AB5598371C08D3 /* ConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4661D8E6DA82E4C01EF9730BEAEB6 /* ConnectivityProvider.swift */; };
+		88518BB079AEC60554A4128F231A2C33 /* connectivity_plus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA0750BEEE670904005C1E249D5F54 /* connectivity_plus-dummy.m */; };
+		8F48C63A52DA828C8FD27015CBFA5DBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DABBDE270C4FEF78B7FF551B4A91483 /* Cocoa.framework */; };
+		8FDDD22163A69D88C1736B11641F82A1 /* ConnectivityPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B459DBAEF8A77813158C50C8B4EBCAD /* ConnectivityPlugin.swift */; };
+		9A91B9E48C08BC27310CE69ECB620B5B /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0DDCB6BC7780218949B92E0C94FF78C /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A55DC48879B2FA2DE8EDED0772F58CCF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DABBDE270C4FEF78B7FF551B4A91483 /* Cocoa.framework */; };
+		B25FDAE39E8A31FA7968D3A5C573584F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DABBDE270C4FEF78B7FF551B4A91483 /* Cocoa.framework */; };
+		B651FF962F3E355E03E45D9A8E085198 /* ReachabilitySwift-ReachabilitySwift in Resources */ = {isa = PBXBuildFile; fileRef = 842AED998605C42F2C05F53985DA2DF5 /* ReachabilitySwift-ReachabilitySwift */; };
+		BEA39E2E4F91F7804EA5AD123E0196D5 /* connectivity_plus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B06D67382D693F6F3F42C6FA7885528B /* connectivity_plus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6566DC9FCE6229C6BC9CDB3739B56EF /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2C98DE7E36A1F51010F1E9E8E58C1 /* Reachability.swift */; };
+		D6B0759EB0B7810B717B1A8AD92EB4AF /* shared_preferences_foundation-shared_preferences_foundation_privacy in Resources */ = {isa = PBXBuildFile; fileRef = 0652FCE3FC19056983AABE058B3CC45B /* shared_preferences_foundation-shared_preferences_foundation_privacy */; };
+		E6542B1DFE55CE2B5AE5DE068F51634B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DABBDE270C4FEF78B7FF551B4A91483 /* Cocoa.framework */; };
+		F02B9FE7FF030C98215EDBF6FECB1347 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7A566968B6C2F39923E0EC50F9E4EF19 /* PrivacyInfo.xcprivacy */; };
+		F5543EDBD6FB7B417D404193E40F6296 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47C1F04237AA14C666FC13BB81D2EAD /* SystemConfiguration.framework */; };
+		F794D044258CD403604379DF23089B8D /* messages.g.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1570FB4B6DCB1F463F6C9DA6EF251436 /* messages.g.swift */; };
+		F8887062FB0C483C8DB94B4CF32475DE /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 726862D01127D0F9B0B1DC6982027D23 /* ReachabilitySwift-dummy.m */; };
+		FC05A1BE39A9244D5B09A2F3B09A967A /* Pods-RunnerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9B12BCE5540D02A80250C3EC16D399 /* Pods-RunnerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A530663947B69CD6A08B2E971A988EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5EE685B22D01885ADD930538E8DD3C;
+			remoteInfo = shared_preferences_foundation;
+		};
+		2E6CF8C2D6D95A5F0E19BFB098319F6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B74B458B450D74B75744B87BD747314;
+			remoteInfo = "Pods-Runner";
+		};
+		41E324F4B2DB65AE2932503D1E757F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8C943EF5CB0B747A82882C5D3ECF93;
+			remoteInfo = "ReachabilitySwift-ReachabilitySwift";
+		};
+		561A4B92FC186E4BF495C475D2D33D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA272E8348BAB4CE0B0C804FB7B818C4;
+			remoteInfo = FlutterMacOS;
+		};
+		5D7B54575991C090E6C0CAF2738B74B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AF8B7CEAF6321719ABBC7E770624DA;
+			remoteInfo = "shared_preferences_foundation-shared_preferences_foundation_privacy";
+		};
+		74AB994536AA13911100166B1FA852DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		879BA5EBEFE90C4877483E878D1C3568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		AA020DCA384D638E18C2D925D64EE135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA272E8348BAB4CE0B0C804FB7B818C4;
+			remoteInfo = FlutterMacOS;
+		};
+		C8CF479F0CB0F8FEEBB4F4B1D1A1C8D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA272E8348BAB4CE0B0C804FB7B818C4;
+			remoteInfo = FlutterMacOS;
+		};
+		E144EF11A3EDE581B6108F44C99D8148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5330FE6EBCAEA8B61DAC8F21917289;
+			remoteInfo = connectivity_plus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E8AD2E8B75443E12D3D3BD12A9900E /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0630A6348E3C63DD0E0755919BDAA58B /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		0652FCE3FC19056983AABE058B3CC45B /* shared_preferences_foundation-shared_preferences_foundation_privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "shared_preferences_foundation-shared_preferences_foundation_privacy"; path = shared_preferences_foundation_privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AF15D0FE831EAFA888FF3498984E16 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "../../../../../../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.4/darwin/shared_preferences_foundation/Sources/shared_preferences_foundation/Resources/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		0AFB643DA4919253F749E2836A5AAFDC /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
+		11AA7018F95317D959D9D2E76CBB2377 /* Pods-RunnerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RunnerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1226056E3D95761616CF45E016EF6579 /* connectivity_plus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = connectivity_plus.podspec; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/macos/connectivity_plus.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1570FB4B6DCB1F463F6C9DA6EF251436 /* messages.g.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = messages.g.swift; path = "../../../../../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.4/darwin/shared_preferences_foundation/Sources/shared_preferences_foundation/messages.g.swift"; sourceTree = "<group>"; };
+		1B136F41D5B5FAE96EA576E768A5771D /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FE4661D8E6DA82E4C01EF9730BEAEB6 /* ConnectivityProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectivityProvider.swift; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/macos/Classes/ConnectivityProvider.swift"; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B459DBAEF8A77813158C50C8B4EBCAD /* ConnectivityPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectivityPlugin.swift; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/macos/Classes/ConnectivityPlugin.swift"; sourceTree = "<group>"; };
+		39AE71642E26233997DB5AD32423B235 /* ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.release.xcconfig; sourceTree = "<group>"; };
+		3C7A6EA2F54EB9359E6EC89C726CEDEA /* shared_preferences_foundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shared_preferences_foundation.modulemap; sourceTree = "<group>"; };
+		3CD9B033E3EEE2694C46BFF073570E5A /* ResourceBundle-shared_preferences_foundation_privacy-shared_preferences_foundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-shared_preferences_foundation_privacy-shared_preferences_foundation-Info.plist"; sourceTree = "<group>"; };
+		4864CBB33F8DFC1D76EE44B85F430EDC /* FlutterMacOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterMacOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		499E3722E8DACDC2AAA6C15AD1796520 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		4D3DB54C128E3D88C0C9C7DDEA475ED7 /* Pods-RunnerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RunnerTests-dummy.m"; sourceTree = "<group>"; };
+		56FA13BEE1950939DC7B0E551C76593B /* ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		5DABBDE270C4FEF78B7FF551B4A91483 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		62FE05335871D2C6DB5AC401B5470674 /* connectivity_plus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "connectivity_plus-prefix.pch"; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Runner"; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3345B1B3CAEDF5B03B1F731FDC492E /* Pods-RunnerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RunnerTests"; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3FD4746C5C4B5292B7C4C862F01EF9 /* connectivity_plus */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = connectivity_plus; path = connectivity_plus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		726862D01127D0F9B0B1DC6982027D23 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		728A5ED1DD60BAC8C8F382A87B976F84 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		773BFCE41424EB8EBB72EF3F6A5FB719 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		79F83F4D505FA40C1CD18A8029181D59 /* Pods-RunnerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RunnerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A566968B6C2F39923E0EC50F9E4EF19 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		7BE69705B19EA5FFB7A402FFF63ED056 /* FlutterMacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterMacOS.release.xcconfig; sourceTree = "<group>"; };
+		7EBE03366913F26F3529F9E31EE05E3F /* shared_preferences_foundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_preferences_foundation.release.xcconfig; sourceTree = "<group>"; };
+		80E2B50145FDF89E392031A8142EF997 /* shared_preferences_foundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shared_preferences_foundation-umbrella.h"; sourceTree = "<group>"; };
+		842AED998605C42F2C05F53985DA2DF5 /* ReachabilitySwift-ReachabilitySwift */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ReachabilitySwift-ReachabilitySwift"; path = ReachabilitySwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FD7FBBDBC6D1BCBA258B789D0C78D8 /* shared_preferences_foundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shared_preferences_foundation-Info.plist"; sourceTree = "<group>"; };
+		92D75CCD99F36330C7F5E0B6718D738B /* shared_preferences_foundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shared_preferences_foundation-prefix.pch"; sourceTree = "<group>"; };
+		93C6A45C6E4792269BE9BE0073839BF0 /* shared_preferences_foundation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = shared_preferences_foundation; path = shared_preferences_foundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		968D8D48D5A9A1A6E4E486061556BF0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.4/LICENSE"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9B12BCE5540D02A80250C3EC16D399 /* Pods-RunnerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RunnerTests-umbrella.h"; sourceTree = "<group>"; };
+		A0DDCB6BC7780218949B92E0C94FF78C /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		A19CF28EA38E1B5E3CA36DF3DD459976 /* shared_preferences_foundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shared_preferences_foundation-dummy.m"; sourceTree = "<group>"; };
+		AC8FE152530FBDCE460186B326C1A8FB /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B00A5ECAED4CA0C16FF7C65365BC0334 /* Pods-RunnerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RunnerTests-Info.plist"; sourceTree = "<group>"; };
+		B06D67382D693F6F3F42C6FA7885528B /* connectivity_plus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "connectivity_plus-umbrella.h"; sourceTree = "<group>"; };
+		B0BD57AB3672E53828D11C2A3368023A /* Pods-RunnerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RunnerTests.modulemap"; sourceTree = "<group>"; };
+		B703785507B22BAF0B800737429577EC /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		B72102735CB00DBC3DCF429255687514 /* connectivity_plus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = connectivity_plus.debug.xcconfig; sourceTree = "<group>"; };
+		C24C1A035F22D24883C6F1876F274C6F /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
+		C50FD10CD19FF6999637BA5ECAF1681B /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		C8D4C82C3E6C6BF41D532ADCE99A56BF /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		C90B18E66A666ADD00316535D565D2A9 /* SharedPreferencesPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedPreferencesPlugin.swift; path = "../../../../../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.4/darwin/shared_preferences_foundation/Sources/shared_preferences_foundation/SharedPreferencesPlugin.swift"; sourceTree = "<group>"; };
+		CD1507C4FC071CE4CDBFE82EE2EBE6EA /* connectivity_plus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "connectivity_plus-Info.plist"; sourceTree = "<group>"; };
+		CF7E7E967686C37E1F446B2AF9843553 /* shared_preferences_foundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = shared_preferences_foundation.podspec; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.4/darwin/shared_preferences_foundation.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D28408F4996BF2833EF8D2BA2DD75FC2 /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
+		E1FA0750BEEE670904005C1E249D5F54 /* connectivity_plus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "connectivity_plus-dummy.m"; sourceTree = "<group>"; };
+		E6DF57E1965452A56A0712CADCE4812B /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		E736E0C9C5B73D27B8865E363E2108AC /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
+		E794494AB90477BA94C681E994ADF341 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		E84DE880C9165BFE616780CF72CD163A /* ReachabilityConnectivityProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReachabilityConnectivityProvider.swift; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/macos/Classes/ReachabilityConnectivityProvider.swift"; sourceTree = "<group>"; };
+		EBE56E4CDC88025D01CE5D2E8144705D /* FlutterMacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterMacOS.debug.xcconfig; sourceTree = "<group>"; };
+		ECDF6AA713870989438BA93B395DC557 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1C2C98DE7E36A1F51010F1E9E8E58C1 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		F1FAB25D088FE10BFCD598BA89EA2332 /* connectivity_plus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = connectivity_plus.release.xcconfig; sourceTree = "<group>"; };
+		F47C1F04237AA14C666FC13BB81D2EAD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F9D1B9E588957627223D84C32F4F01C4 /* shared_preferences_foundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_preferences_foundation.debug.xcconfig; sourceTree = "<group>"; };
+		FA246E6680CCC0C5D3DA9DB4A1E62C3C /* connectivity_plus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = connectivity_plus.modulemap; sourceTree = "<group>"; };
+		FB1043B55C0CCED6C176DEA6B326AD10 /* PathMonitorConnectivityProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathMonitorConnectivityProvider.swift; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/macos/Classes/PathMonitorConnectivityProvider.swift"; sourceTree = "<group>"; };
+		FC732D643293F1D26490F9870688BFE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/LICENSE"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2791489B5FB8A9E1347B660E2BD7F8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F48C63A52DA828C8FD27015CBFA5DBF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497F9924D0FB6CED087B48D1C40F2593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBE63625D9527B7F88C849985EEBCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2140F3D71FAB5594D58180BE5EC0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25FDAE39E8A31FA7968D3A5C573584F /* Cocoa.framework in Frameworks */,
+				F5543EDBD6FB7B417D404193E40F6296 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C490C2CC2EE2221C199D32B46591FE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76396C5FFDEE830D97EF9B22B8CBB9C2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC48305A9894C747D40E7254DF222D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6542B1DFE55CE2B5AE5DE068F51634B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0D34834B0FDCFFA3365D7C2714D862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55DC48879B2FA2DE8EDED0772F58CCF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02AF40A9F29638432E2CB0960F3DAF13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6DF57E1965452A56A0712CADCE4812B /* ReachabilitySwift.modulemap */,
+				726862D01127D0F9B0B1DC6982027D23 /* ReachabilitySwift-dummy.m */,
+				C8D4C82C3E6C6BF41D532ADCE99A56BF /* ReachabilitySwift-Info.plist */,
+				0630A6348E3C63DD0E0755919BDAA58B /* ReachabilitySwift-prefix.pch */,
+				A0DDCB6BC7780218949B92E0C94FF78C /* ReachabilitySwift-umbrella.h */,
+				D28408F4996BF2833EF8D2BA2DD75FC2 /* ReachabilitySwift.debug.xcconfig */,
+				39AE71642E26233997DB5AD32423B235 /* ReachabilitySwift.release.xcconfig */,
+				56FA13BEE1950939DC7B0E551C76593B /* ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		03590CF8BB5FFD4DF33E7230DC75A39C /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				5DABBDE270C4FEF78B7FF551B4A91483 /* Cocoa.framework */,
+				F47C1F04237AA14C666FC13BB81D2EAD /* SystemConfiguration.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		0853BC2EA0C1A64AD3FCEF7663432BD2 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				1B012A8EC40A81AAFD146226E7632F0B /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/macos";
+			sourceTree = "<group>";
+		};
+		16A85638BC89E8B166B29BEA046F7B4C /* darwin */ = {
+			isa = PBXGroup;
+			children = (
+				8F20E3BFCB8E84CCE1CFC79985A3C7B3 /* shared_preferences_foundation */,
+			);
+			name = darwin;
+			path = darwin;
+			sourceTree = "<group>";
+		};
+		197886D19EADA62540053599DEADC58D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4864CBB33F8DFC1D76EE44B85F430EDC /* FlutterMacOS.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1AA080C1B8B2B8A6BFB8E03E3D870B72 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				48F984D62934110ED74D4602D98CB279 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1B012A8EC40A81AAFD146226E7632F0B /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				BA8FBEB406850F9324B58C8F2644E087 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1D12C713BA17C099FDD632AA713CF69A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBE56E4CDC88025D01CE5D2E8144705D /* FlutterMacOS.debug.xcconfig */,
+				7BE69705B19EA5FFB7A402FFF63ED056 /* FlutterMacOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/FlutterMacOS";
+			sourceTree = "<group>";
+		};
+		2126EC58E9CB0809B31C6D6A3EC561F3 /* shared_preferences_foundation */ = {
+			isa = PBXGroup;
+			children = (
+				271D58025FABC6AD02A8C176C76EEAC5 /* .. */,
+				7629371E97ADC51182C6361B341479DB /* Pod */,
+				BE2982CB283AF91D144BCCED3F3C02BB /* Support Files */,
+			);
+			name = shared_preferences_foundation;
+			path = ../Flutter/ephemeral/.symlinks/plugins/shared_preferences_foundation/darwin;
+			sourceTree = "<group>";
+		};
+		271D58025FABC6AD02A8C176C76EEAC5 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BA249F1466394AD270F38907EFED4 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.4/darwin/shared_preferences_foundation/Sources";
+			sourceTree = "<group>";
+		};
+		2B56BBDDA887977F7C18D80C9D681712 /* FlutterMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				197886D19EADA62540053599DEADC58D /* Pod */,
+				1D12C713BA17C099FDD632AA713CF69A /* Support Files */,
+			);
+			name = FlutterMacOS;
+			path = ../Flutter/ephemeral;
+			sourceTree = "<group>";
+		};
+		2DB8426A477BA92773F00012EBA84D53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E806A4F97D48F5FD3B4CA1BC617EA1F5 /* Pods-Runner */,
+				537E840C4F4E30B706FD9D64B15C53A7 /* Pods-RunnerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2DF6000279849E9CBB9D1DEE781544B9 /* digital_payment_project */ = {
+			isa = PBXGroup;
+			children = (
+				9FAC505FB76BD5884515D91EA5EA5CF5 /* macos */,
+			);
+			name = digital_payment_project;
+			path = digital_payment_project;
+			sourceTree = "<group>";
+		};
+		3796380CCC82B774885CBE31CE120993 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				A7232DF9133BDA30EBB481658A0972C6 /* .. */,
+				AD09F3092E82EFF0170F144886AFFE2C /* AndroidStudioProjects */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		41CF55C1DB5D0A53EFE66FF14CFD8972 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				451A33C60C2B7CB01691A718D4A9FF39 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		435BBB70D0339DAD3D30B370663DCCD4 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				3796380CCC82B774885CBE31CE120993 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		451A33C60C2B7CB01691A718D4A9FF39 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				5D672C6B3E0F20E739DE5703972AE38B /* shared_preferences_foundation */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		48F984D62934110ED74D4602D98CB279 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				CB4D068EB534958011C39C850A8691B5 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		493F7D26C63F326D5C2F7007E54746F0 /* shared_preferences_foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7E07CDF86AF7048FBE9F8952DB6330F4 /* darwin */,
+			);
+			name = shared_preferences_foundation;
+			path = shared_preferences_foundation;
+			sourceTree = "<group>";
+		};
+		4F4BA249F1466394AD270F38907EFED4 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				6D2601DDD65E570DB4CB3D8F169E635F /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		537E840C4F4E30B706FD9D64B15C53A7 /* Pods-RunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0BD57AB3672E53828D11C2A3368023A /* Pods-RunnerTests.modulemap */,
+				11AA7018F95317D959D9D2E76CBB2377 /* Pods-RunnerTests-acknowledgements.markdown */,
+				79F83F4D505FA40C1CD18A8029181D59 /* Pods-RunnerTests-acknowledgements.plist */,
+				4D3DB54C128E3D88C0C9C7DDEA475ED7 /* Pods-RunnerTests-dummy.m */,
+				B00A5ECAED4CA0C16FF7C65365BC0334 /* Pods-RunnerTests-Info.plist */,
+				9E9B12BCE5540D02A80250C3EC16D399 /* Pods-RunnerTests-umbrella.h */,
+				03E8AD2E8B75443E12D3D3BD12A9900E /* Pods-RunnerTests.debug.xcconfig */,
+				E736E0C9C5B73D27B8865E363E2108AC /* Pods-RunnerTests.profile.xcconfig */,
+				AC8FE152530FBDCE460186B326C1A8FB /* Pods-RunnerTests.release.xcconfig */,
+			);
+			name = "Pods-RunnerTests";
+			path = "Target Support Files/Pods-RunnerTests";
+			sourceTree = "<group>";
+		};
+		552469D383EF4AD5F4D7D12C63A263F7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C0C3FFD2B99BFE6B172E9FAF1960E7D7 /* shared_preferences_foundation */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		558393CC810B4720298D0F140A53C49A /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				DC936A21EAC9CF416891556EDCF08CCC /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		5840668B315CF9FE78D34BD63B760746 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07AF15D0FE831EAFA888FF3498984E16 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D672C6B3E0F20E739DE5703972AE38B /* shared_preferences_foundation */ = {
+			isa = PBXGroup;
+			children = (
+				16A85638BC89E8B166B29BEA046F7B4C /* darwin */,
+			);
+			name = shared_preferences_foundation;
+			path = shared_preferences_foundation;
+			sourceTree = "<group>";
+		};
+		63EABF40C357F977AEAD55B279992D0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA246E6680CCC0C5D3DA9DB4A1E62C3C /* connectivity_plus.modulemap */,
+				E1FA0750BEEE670904005C1E249D5F54 /* connectivity_plus-dummy.m */,
+				CD1507C4FC071CE4CDBFE82EE2EBE6EA /* connectivity_plus-Info.plist */,
+				62FE05335871D2C6DB5AC401B5470674 /* connectivity_plus-prefix.pch */,
+				B06D67382D693F6F3F42C6FA7885528B /* connectivity_plus-umbrella.h */,
+				B72102735CB00DBC3DCF429255687514 /* connectivity_plus.debug.xcconfig */,
+				F1FAB25D088FE10BFCD598BA89EA2332 /* connectivity_plus.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../../../Pods/Target Support Files/connectivity_plus";
+			sourceTree = "<group>";
+		};
+		67D23402A30823F502E0942BE34707BD /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				493F7D26C63F326D5C2F7007E54746F0 /* shared_preferences_foundation */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		687014146F394EC51FD7A4CA4FB0D61D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B459DBAEF8A77813158C50C8B4EBCAD /* ConnectivityPlugin.swift */,
+				1FE4661D8E6DA82E4C01EF9730BEAEB6 /* ConnectivityProvider.swift */,
+				FB1043B55C0CCED6C176DEA6B326AD10 /* PathMonitorConnectivityProvider.swift */,
+				E84DE880C9165BFE616780CF72CD163A /* ReachabilityConnectivityProvider.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6D2601DDD65E570DB4CB3D8F169E635F /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				1AA080C1B8B2B8A6BFB8E03E3D870B72 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		709719705ABA263473A7CB1D23D791AF /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				8D32E054489BB04959E1BAE82CA13620 /* AndroidStudioProjects */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7629371E97ADC51182C6361B341479DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				968D8D48D5A9A1A6E4E486061556BF0C /* LICENSE */,
+				CF7E7E967686C37E1F446B2AF9843553 /* shared_preferences_foundation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		781C25F1162E3F2C02D3E59C2C2455A4 /* ephemeral */ = {
+			isa = PBXGroup;
+			children = (
+				D158F35500CA9F39BBC8BBA4F0818029 /* .symlinks */,
+			);
+			name = ephemeral;
+			path = ephemeral;
+			sourceTree = "<group>";
+		};
+		7E07CDF86AF7048FBE9F8952DB6330F4 /* darwin */ = {
+			isa = PBXGroup;
+			children = (
+				C3FB0C8BE9B77DAED5EF8B99100C676B /* shared_preferences_foundation */,
+			);
+			name = darwin;
+			path = darwin;
+			sourceTree = "<group>";
+		};
+		856D753E176D182F3A22A7DADB9B9DEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A566968B6C2F39923E0EC50F9E4EF19 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B65EFBDCB950672286B9538BB099133 /* digital_payment_project */ = {
+			isa = PBXGroup;
+			children = (
+				93D8FC3BB9015A5A8A33128777163E35 /* macos */,
+			);
+			name = digital_payment_project;
+			path = digital_payment_project;
+			sourceTree = "<group>";
+		};
+		8B7E725B799DDC0DD0E2855AEA979AB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D3FD4746C5C4B5292B7C4C862F01EF9 /* connectivity_plus */,
+				669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */,
+				6C3345B1B3CAEDF5B03B1F731FDC492E /* Pods-RunnerTests */,
+				21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */,
+				842AED998605C42F2C05F53985DA2DF5 /* ReachabilitySwift-ReachabilitySwift */,
+				93C6A45C6E4792269BE9BE0073839BF0 /* shared_preferences_foundation */,
+				0652FCE3FC19056983AABE058B3CC45B /* shared_preferences_foundation-shared_preferences_foundation_privacy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D32E054489BB04959E1BAE82CA13620 /* AndroidStudioProjects */ = {
+			isa = PBXGroup;
+			children = (
+				8B65EFBDCB950672286B9538BB099133 /* digital_payment_project */,
+			);
+			name = AndroidStudioProjects;
+			path = AndroidStudioProjects;
+			sourceTree = "<group>";
+		};
+		8F20E3BFCB8E84CCE1CFC79985A3C7B3 /* shared_preferences_foundation */ = {
+			isa = PBXGroup;
+			children = (
+				552469D383EF4AD5F4D7D12C63A263F7 /* Sources */,
+			);
+			name = shared_preferences_foundation;
+			path = shared_preferences_foundation;
+			sourceTree = "<group>";
+		};
+		90C23562E785C6240FBB54FE6FF1AB49 /* macos */ = {
+			isa = PBXGroup;
+			children = (
+				687014146F394EC51FD7A4CA4FB0D61D /* Classes */,
+			);
+			name = macos;
+			path = macos;
+			sourceTree = "<group>";
+		};
+		91069D31619381590C468EE2DD6EBA2B /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				D472C84DDF6EBD19C30B7D62B8F365F9 /* ephemeral */,
+			);
+			name = Flutter;
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		93D8FC3BB9015A5A8A33128777163E35 /* macos */ = {
+			isa = PBXGroup;
+			children = (
+				EB612F0D25845D23CCEAA722244DEB33 /* Flutter */,
+			);
+			name = macos;
+			path = macos;
+			sourceTree = "<group>";
+		};
+		9528CE34E9DE77E73E5FC912618CE54E /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				C9E62A09C1F887F16001006A502E3938 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		95B5F76ED83F9A16761252A10FCAB090 /* AndroidStudioProjects */ = {
+			isa = PBXGroup;
+			children = (
+				A02E328103852C4CE4776BF328386A10 /* digital_payment_project */,
+			);
+			name = AndroidStudioProjects;
+			path = AndroidStudioProjects;
+			sourceTree = "<group>";
+		};
+		97C072B319645422908DD131CFA8122B /* connectivity_plus */ = {
+			isa = PBXGroup;
+			children = (
+				0853BC2EA0C1A64AD3FCEF7663432BD2 /* .. */,
+				C8957A89FD8050B9DB81A9D4E28BB3A6 /* Pod */,
+				63EABF40C357F977AEAD55B279992D0C /* Support Files */,
+			);
+			name = connectivity_plus;
+			path = ../Flutter/ephemeral/.symlinks/plugins/connectivity_plus/macos;
+			sourceTree = "<group>";
+		};
+		9FAC505FB76BD5884515D91EA5EA5CF5 /* macos */ = {
+			isa = PBXGroup;
+			children = (
+				A0EF09DBB95E5EABAB5401A23A29F21E /* Flutter */,
+			);
+			name = macos;
+			path = macos;
+			sourceTree = "<group>";
+		};
+		A02E328103852C4CE4776BF328386A10 /* digital_payment_project */ = {
+			isa = PBXGroup;
+			children = (
+				FD7CE29B64BE9A215A80C8095DBEDC3B /* macos */,
+			);
+			name = digital_payment_project;
+			path = digital_payment_project;
+			sourceTree = "<group>";
+		};
+		A0EF09DBB95E5EABAB5401A23A29F21E /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				781C25F1162E3F2C02D3E59C2C2455A4 /* ephemeral */,
+			);
+			name = Flutter;
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		A7232DF9133BDA30EBB481658A0972C6 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				95B5F76ED83F9A16761252A10FCAB090 /* AndroidStudioProjects */,
+			);
+			name = ..;
+			path = .;
+			sourceTree = "<group>";
+		};
+		AD09F3092E82EFF0170F144886AFFE2C /* AndroidStudioProjects */ = {
+			isa = PBXGroup;
+			children = (
+				2DF6000279849E9CBB9D1DEE781544B9 /* digital_payment_project */,
+			);
+			name = AndroidStudioProjects;
+			path = AndroidStudioProjects;
+			sourceTree = "<group>";
+		};
+		BA8FBEB406850F9324B58C8F2644E087 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				9528CE34E9DE77E73E5FC912618CE54E /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BAE9F4293F7C97F80F00790D87D1C748 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97C072B319645422908DD131CFA8122B /* connectivity_plus */,
+				2B56BBDDA887977F7C18D80C9D681712 /* FlutterMacOS */,
+				2126EC58E9CB0809B31C6D6A3EC561F3 /* shared_preferences_foundation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BDC9E7514E39F5A3226A4A1C16502A62 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2C98DE7E36A1F51010F1E9E8E58C1 /* Reachability.swift */,
+				856D753E176D182F3A22A7DADB9B9DEA /* Resources */,
+				02AF40A9F29638432E2CB0960F3DAF13 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		BE2982CB283AF91D144BCCED3F3C02BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CD9B033E3EEE2694C46BFF073570E5A /* ResourceBundle-shared_preferences_foundation_privacy-shared_preferences_foundation-Info.plist */,
+				3C7A6EA2F54EB9359E6EC89C726CEDEA /* shared_preferences_foundation.modulemap */,
+				A19CF28EA38E1B5E3CA36DF3DD459976 /* shared_preferences_foundation-dummy.m */,
+				90FD7FBBDBC6D1BCBA258B789D0C78D8 /* shared_preferences_foundation-Info.plist */,
+				92D75CCD99F36330C7F5E0B6718D738B /* shared_preferences_foundation-prefix.pch */,
+				80E2B50145FDF89E392031A8142EF997 /* shared_preferences_foundation-umbrella.h */,
+				F9D1B9E588957627223D84C32F4F01C4 /* shared_preferences_foundation.debug.xcconfig */,
+				7EBE03366913F26F3529F9E31EE05E3F /* shared_preferences_foundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../../../Pods/Target Support Files/shared_preferences_foundation";
+			sourceTree = "<group>";
+		};
+		C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03590CF8BB5FFD4DF33E7230DC75A39C /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C3FFD2B99BFE6B172E9FAF1960E7D7 /* shared_preferences_foundation */ = {
+			isa = PBXGroup;
+			children = (
+				5840668B315CF9FE78D34BD63B760746 /* Resources */,
+			);
+			name = shared_preferences_foundation;
+			path = shared_preferences_foundation;
+			sourceTree = "<group>";
+		};
+		C3A35810CE7BFDBBBCCE60E4CC70AB55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDC9E7514E39F5A3226A4A1C16502A62 /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3FB0C8BE9B77DAED5EF8B99100C676B /* shared_preferences_foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FCC42D44C182FA7FEDB2C84C03DCEFD0 /* Sources */,
+			);
+			name = shared_preferences_foundation;
+			path = shared_preferences_foundation;
+			sourceTree = "<group>";
+		};
+		C8957A89FD8050B9DB81A9D4E28BB3A6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1226056E3D95761616CF45E016EF6579 /* connectivity_plus.podspec */,
+				FC732D643293F1D26490F9870688BFE0 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C9E62A09C1F887F16001006A502E3938 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				709719705ABA263473A7CB1D23D791AF /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CB4D068EB534958011C39C850A8691B5 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				435BBB70D0339DAD3D30B370663DCCD4 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BAE9F4293F7C97F80F00790D87D1C748 /* Development Pods */,
+				C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */,
+				C3A35810CE7BFDBBBCCE60E4CC70AB55 /* Pods */,
+				8B7E725B799DDC0DD0E2855AEA979AB8 /* Products */,
+				2DB8426A477BA92773F00012EBA84D53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D158F35500CA9F39BBC8BBA4F0818029 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				67D23402A30823F502E0942BE34707BD /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		D472C84DDF6EBD19C30B7D62B8F365F9 /* ephemeral */ = {
+			isa = PBXGroup;
+			children = (
+				41CF55C1DB5D0A53EFE66FF14CFD8972 /* .symlinks */,
+			);
+			name = ephemeral;
+			path = ephemeral;
+			sourceTree = "<group>";
+		};
+		DC936A21EAC9CF416891556EDCF08CCC /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				FB7FA744EC92F38529809A93B8502D60 /* connectivity_plus */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		E25A84257059204AF34BA1C712F7D9FE /* ephemeral */ = {
+			isa = PBXGroup;
+			children = (
+				558393CC810B4720298D0F140A53C49A /* .symlinks */,
+			);
+			name = ephemeral;
+			path = ephemeral;
+			sourceTree = "<group>";
+		};
+		E806A4F97D48F5FD3B4CA1BC617EA1F5 /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				C24C1A035F22D24883C6F1876F274C6F /* Pods-Runner.modulemap */,
+				ECDF6AA713870989438BA93B395DC557 /* Pods-Runner-acknowledgements.markdown */,
+				1B136F41D5B5FAE96EA576E768A5771D /* Pods-Runner-acknowledgements.plist */,
+				E794494AB90477BA94C681E994ADF341 /* Pods-Runner-dummy.m */,
+				773BFCE41424EB8EBB72EF3F6A5FB719 /* Pods-Runner-frameworks.sh */,
+				0AFB643DA4919253F749E2836A5AAFDC /* Pods-Runner-Info.plist */,
+				499E3722E8DACDC2AAA6C15AD1796520 /* Pods-Runner-umbrella.h */,
+				728A5ED1DD60BAC8C8F382A87B976F84 /* Pods-Runner.debug.xcconfig */,
+				C50FD10CD19FF6999637BA5ECAF1681B /* Pods-Runner.profile.xcconfig */,
+				B703785507B22BAF0B800737429577EC /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		EB612F0D25845D23CCEAA722244DEB33 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				E25A84257059204AF34BA1C712F7D9FE /* ephemeral */,
+			);
+			name = Flutter;
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		EF0856683F0ED8F6E04BDCA675A1397D /* shared_preferences_foundation */ = {
+			isa = PBXGroup;
+			children = (
+				1570FB4B6DCB1F463F6C9DA6EF251436 /* messages.g.swift */,
+				C90B18E66A666ADD00316535D565D2A9 /* SharedPreferencesPlugin.swift */,
+			);
+			name = shared_preferences_foundation;
+			path = shared_preferences_foundation;
+			sourceTree = "<group>";
+		};
+		FB7FA744EC92F38529809A93B8502D60 /* connectivity_plus */ = {
+			isa = PBXGroup;
+			children = (
+				90C23562E785C6240FBB54FE6FF1AB49 /* macos */,
+			);
+			name = connectivity_plus;
+			path = connectivity_plus;
+			sourceTree = "<group>";
+		};
+		FCC42D44C182FA7FEDB2C84C03DCEFD0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EF0856683F0ED8F6E04BDCA675A1397D /* shared_preferences_foundation */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FD7CE29B64BE9A215A80C8095DBEDC3B /* macos */ = {
+			isa = PBXGroup;
+			children = (
+				91069D31619381590C468EE2DD6EBA2B /* Flutter */,
+			);
+			name = macos;
+			path = macos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		142B3D4D76C500A061E6BCF30EC9A53C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC05A1BE39A9244D5B09A2F3B09A967A /* Pods-RunnerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D1DDF0E92530B0BD3969A03419B04D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA39E2E4F91F7804EA5AD123E0196D5 /* connectivity_plus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC748D737B40B8D9EDEAC89BC2D756B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436F2E76D8BA662F7DD9A34D700F9E2B /* shared_preferences_foundation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A59E430A0B64B906A7229304106732 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A91B9E48C08BC27310CE69ECB620B5B /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F144C7CAA4EDC1CD4C350B3EDCAE36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072BE79CEB1081D1FE6CBED789CB31FB /* Pods-Runner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A8C943EF5CB0B747A82882C5D3ECF93 /* ReachabilitySwift-ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B44C219778859563AE0B6515258070D /* Build configuration list for PBXNativeTarget "ReachabilitySwift-ReachabilitySwift" */;
+			buildPhases = (
+				59B4F50E21452935D40A6EEBA7655820 /* Sources */,
+				6DBE63625D9527B7F88C849985EEBCE6 /* Frameworks */,
+				D080A481ABEF1B46EAAD5BBDA001FE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReachabilitySwift-ReachabilitySwift";
+			productName = ReachabilitySwift;
+			productReference = 842AED998605C42F2C05F53985DA2DF5 /* ReachabilitySwift-ReachabilitySwift */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17A48EDE662E18B8F11A49C732E3436 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				82A59E430A0B64B906A7229304106732 /* Headers */,
+				A356BA6F56800BC31DEA6504084D2D59 /* Sources */,
+				8E2140F3D71FAB5594D58180BE5EC0FD /* Frameworks */,
+				774AE2604681BA031796AA5AA8AF6A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19CE9E9B76AD24179A190995727E8568 /* PBXTargetDependency */,
+			);
+			name = ReachabilitySwift;
+			productName = Reachability;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		3232F0C0E7C65B232832393F9ADDD8C3 /* Pods-RunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93FE463016A8F6A183A1AD3D9FA6BAD /* Build configuration list for PBXNativeTarget "Pods-RunnerTests" */;
+			buildPhases = (
+				142B3D4D76C500A061E6BCF30EC9A53C /* Headers */,
+				E10C36E928F64731CA20595F8549B229 /* Sources */,
+				C490C2CC2EE2221C199D32B46591FE37 /* Frameworks */,
+				1FCDCF5B151D07CE5E500ACCA90F4EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4C855BA25AEAA04C1784262853EF7D /* PBXTargetDependency */,
+			);
+			name = "Pods-RunnerTests";
+			productName = Pods_RunnerTests;
+			productReference = 6C3345B1B3CAEDF5B03B1F731FDC492E /* Pods-RunnerTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6FC4A717BF063B3A35DBBC73050C12 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				B5F144C7CAA4EDC1CD4C350B3EDCAE36 /* Headers */,
+				E0B32CD7EF55D48D3630314C3AD2D210 /* Sources */,
+				DFBC48305A9894C747D40E7254DF222D /* Frameworks */,
+				305A4E83276125227A60BDEA5AE7C2B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E13F753562A906ED15EE65CAC78B43A8 /* PBXTargetDependency */,
+				2E21F5E8E8299D4E258EB36451DFCFBE /* PBXTargetDependency */,
+				D7E5DDC6D15FB4FC9C08EF5D3BC916ED /* PBXTargetDependency */,
+				70BCFE182724F9354E885C04D8977798 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = Pods_Runner;
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB5EE685B22D01885ADD930538E8DD3C /* shared_preferences_foundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2183457B1DAFB5D6CB653F35D68427 /* Build configuration list for PBXNativeTarget "shared_preferences_foundation" */;
+			buildPhases = (
+				3AC748D737B40B8D9EDEAC89BC2D756B /* Headers */,
+				207FCC669D36C80DB1722920CCDDD51E /* Sources */,
+				EF0D34834B0FDCFFA3365D7C2714D862 /* Frameworks */,
+				2D43A671FBDC0F753083D12C3690A0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879F93B5518780851D891CD534A1E186 /* PBXTargetDependency */,
+				F458DF43EF6377DB0129BFFE9354ED2F /* PBXTargetDependency */,
+			);
+			name = shared_preferences_foundation;
+			productName = shared_preferences_foundation;
+			productReference = 93C6A45C6E4792269BE9BE0073839BF0 /* shared_preferences_foundation */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6AF8B7CEAF6321719ABBC7E770624DA /* shared_preferences_foundation-shared_preferences_foundation_privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C9BB04E5C4ABD481D5E55D143F90FC /* Build configuration list for PBXNativeTarget "shared_preferences_foundation-shared_preferences_foundation_privacy" */;
+			buildPhases = (
+				14B2C286F777C06AEEF4E7CA8B0E6917 /* Sources */,
+				497F9924D0FB6CED087B48D1C40F2593 /* Frameworks */,
+				89C9B5696F32ADF0D75B6D2BEB843CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shared_preferences_foundation-shared_preferences_foundation_privacy";
+			productName = shared_preferences_foundation_privacy;
+			productReference = 0652FCE3FC19056983AABE058B3CC45B /* shared_preferences_foundation-shared_preferences_foundation_privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FB5330FE6EBCAEA8B61DAC8F21917289 /* connectivity_plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3156968EE64AA60E7C9E348D5AAF9592 /* Build configuration list for PBXNativeTarget "connectivity_plus" */;
+			buildPhases = (
+				38D1DDF0E92530B0BD3969A03419B04D /* Headers */,
+				52183218E86C7561D5ED1132712D6D80 /* Sources */,
+				2791489B5FB8A9E1347B660E2BD7F8EA /* Frameworks */,
+				EE32017F66E88ABE82B5B712BFCD0D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752C46B69DD0BF8FF68F1C369BBAF2B7 /* PBXTargetDependency */,
+				2FD505BB9B5CAA5CADD3C93E3E011694 /* PBXTargetDependency */,
+			);
+			name = connectivity_plus;
+			productName = connectivity_plus;
+			productReference = 6D3FD4746C5C4B5292B7C4C862F01EF9 /* connectivity_plus */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8B7E725B799DDC0DD0E2855AEA979AB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5330FE6EBCAEA8B61DAC8F21917289 /* connectivity_plus */,
+				CA272E8348BAB4CE0B0C804FB7B818C4 /* FlutterMacOS */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+				3232F0C0E7C65B232832393F9ADDD8C3 /* Pods-RunnerTests */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+				0A8C943EF5CB0B747A82882C5D3ECF93 /* ReachabilitySwift-ReachabilitySwift */,
+				AB5EE685B22D01885ADD930538E8DD3C /* shared_preferences_foundation */,
+				B6AF8B7CEAF6321719ABBC7E770624DA /* shared_preferences_foundation-shared_preferences_foundation_privacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FCDCF5B151D07CE5E500ACCA90F4EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D43A671FBDC0F753083D12C3690A0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B0759EB0B7810B717B1A8AD92EB4AF /* shared_preferences_foundation-shared_preferences_foundation_privacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305A4E83276125227A60BDEA5AE7C2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774AE2604681BA031796AA5AA8AF6A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B651FF962F3E355E03E45D9A8E085198 /* ReachabilitySwift-ReachabilitySwift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C9B5696F32ADF0D75B6D2BEB843CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556B8AAB4372B9EC3F9CC107DE8A1807 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D080A481ABEF1B46EAAD5BBDA001FE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B9FE7FF030C98215EDBF6FECB1347 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE32017F66E88ABE82B5B712BFCD0D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B2C286F777C06AEEF4E7CA8B0E6917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207FCC669D36C80DB1722920CCDDD51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F794D044258CD403604379DF23089B8D /* messages.g.swift in Sources */,
+				76D0455F85D87B8A2ABA7D922465A29D /* shared_preferences_foundation-dummy.m in Sources */,
+				72606198852C5087C7FCB9EA274A8EFC /* SharedPreferencesPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52183218E86C7561D5ED1132712D6D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88518BB079AEC60554A4128F231A2C33 /* connectivity_plus-dummy.m in Sources */,
+				8FDDD22163A69D88C1736B11641F82A1 /* ConnectivityPlugin.swift in Sources */,
+				86395EC0CE044C86D9AB5598371C08D3 /* ConnectivityProvider.swift in Sources */,
+				5CD20AE8867B9E4CBC5AC1B9E6F44A02 /* PathMonitorConnectivityProvider.swift in Sources */,
+				2237A5DDF8DB09DD8E779C4B82A62B53 /* ReachabilityConnectivityProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B4F50E21452935D40A6EEBA7655820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A356BA6F56800BC31DEA6504084D2D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6566DC9FCE6229C6BC9CDB3739B56EF /* Reachability.swift in Sources */,
+				F8887062FB0C483C8DB94B4CF32475DE /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B32CD7EF55D48D3630314C3AD2D210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2DB86ACD37AAC50E6682216B952966 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10C36E928F64731CA20595F8549B229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1E62EB116E7D7A6252B6F079890306 /* Pods-RunnerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19CE9E9B76AD24179A190995727E8568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReachabilitySwift-ReachabilitySwift";
+			target = 0A8C943EF5CB0B747A82882C5D3ECF93 /* ReachabilitySwift-ReachabilitySwift */;
+			targetProxy = 41E324F4B2DB65AE2932503D1E757F68 /* PBXContainerItemProxy */;
+		};
+		2E21F5E8E8299D4E258EB36451DFCFBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 74AB994536AA13911100166B1FA852DF /* PBXContainerItemProxy */;
+		};
+		2FD505BB9B5CAA5CADD3C93E3E011694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 879BA5EBEFE90C4877483E878D1C3568 /* PBXContainerItemProxy */;
+		};
+		3E4C855BA25AEAA04C1784262853EF7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Runner";
+			target = 8B74B458B450D74B75744B87BD747314 /* Pods-Runner */;
+			targetProxy = 2E6CF8C2D6D95A5F0E19BFB098319F6D /* PBXContainerItemProxy */;
+		};
+		70BCFE182724F9354E885C04D8977798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = shared_preferences_foundation;
+			target = AB5EE685B22D01885ADD930538E8DD3C /* shared_preferences_foundation */;
+			targetProxy = 1A530663947B69CD6A08B2E971A988EA /* PBXContainerItemProxy */;
+		};
+		752C46B69DD0BF8FF68F1C369BBAF2B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterMacOS;
+			target = CA272E8348BAB4CE0B0C804FB7B818C4 /* FlutterMacOS */;
+			targetProxy = C8CF479F0CB0F8FEEBB4F4B1D1A1C8D6 /* PBXContainerItemProxy */;
+		};
+		879F93B5518780851D891CD534A1E186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterMacOS;
+			target = CA272E8348BAB4CE0B0C804FB7B818C4 /* FlutterMacOS */;
+			targetProxy = AA020DCA384D638E18C2D925D64EE135 /* PBXContainerItemProxy */;
+		};
+		D7E5DDC6D15FB4FC9C08EF5D3BC916ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = connectivity_plus;
+			target = FB5330FE6EBCAEA8B61DAC8F21917289 /* connectivity_plus */;
+			targetProxy = E144EF11A3EDE581B6108F44C99D8148 /* PBXContainerItemProxy */;
+		};
+		E13F753562A906ED15EE65CAC78B43A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterMacOS;
+			target = CA272E8348BAB4CE0B0C804FB7B818C4 /* FlutterMacOS */;
+			targetProxy = 561A4B92FC186E4BF495C475D2D33D92 /* PBXContainerItemProxy */;
+		};
+		F458DF43EF6377DB0129BFFE9354ED2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "shared_preferences_foundation-shared_preferences_foundation_privacy";
+			target = B6AF8B7CEAF6321719ABBC7E770624DA /* shared_preferences_foundation-shared_preferences_foundation_privacy */;
+			targetProxy = 5D7B54575991C090E6C0CAF2738B74B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		047A6B53B864DB8EEA4C9FC281D68CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D1B9E588957627223D84C32F4F01C4 /* shared_preferences_foundation.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/shared_preferences_foundation/shared_preferences_foundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/shared_preferences_foundation/shared_preferences_foundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/shared_preferences_foundation/shared_preferences_foundation.modulemap";
+				PRODUCT_MODULE_NAME = shared_preferences_foundation;
+				PRODUCT_NAME = shared_preferences_foundation;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		057F326B610B427D8F39944EEBCA4E98 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FAB25D088FE10BFCD598BA89EA2332 /* connectivity_plus.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64-release/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/connectivity_plus/connectivity_plus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/connectivity_plus/connectivity_plus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/connectivity_plus/connectivity_plus.modulemap";
+				PRODUCT_MODULE_NAME = connectivity_plus;
+				PRODUCT_NAME = connectivity_plus;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		0B411C172141D2B6F20924EDBEE932DE /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50FD10CD19FF6999637BA5ECAF1681B /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64-release/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		1D6BBE705B4E14F77C21AB0FECA78CC3 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE69705B19EA5FFB7A402FFF63ED056 /* FlutterMacOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				SDKROOT = macosx;
+			};
+			name = Profile;
+		};
+		2080CD090CDFE177C40901B8042988E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28408F4996BF2833EF8D2BA2DD75FC2 /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2425177F482F33D9E324657CE9E9C870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBE03366913F26F3529F9E31EE05E3F /* shared_preferences_foundation.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/shared_preferences_foundation";
+				IBSC_MODULE = shared_preferences_foundation;
+				INFOPLIST_FILE = "Target Support Files/shared_preferences_foundation/ResourceBundle-shared_preferences_foundation_privacy-shared_preferences_foundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = shared_preferences_foundation_privacy;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		29C7EF5EE2FD6E5A4EAFBC6E4CD96A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AE71642E26233997DB5AD32423B235 /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ReachabilitySwift";
+				IBSC_MODULE = Reachability;
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		429C4D96666CE8215DDD970A04C9A9C1 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AE71642E26233997DB5AD32423B235 /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ReachabilitySwift";
+				IBSC_MODULE = Reachability;
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Profile;
+		};
+		4EF00AD8CAF9E3B5F33E984C0DB089BA /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBE03366913F26F3529F9E31EE05E3F /* shared_preferences_foundation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/shared_preferences_foundation";
+				IBSC_MODULE = shared_preferences_foundation;
+				INFOPLIST_FILE = "Target Support Files/shared_preferences_foundation/ResourceBundle-shared_preferences_foundation_privacy-shared_preferences_foundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = shared_preferences_foundation_privacy;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Profile;
+		};
+		5219B37A56F18A93710CA4ED1C955FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B703785507B22BAF0B800737429577EC /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64-release/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5274EBE643C20E51DC374144BBAE7AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D1B9E588957627223D84C32F4F01C4 /* shared_preferences_foundation.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/shared_preferences_foundation";
+				IBSC_MODULE = shared_preferences_foundation;
+				INFOPLIST_FILE = "Target Support Files/shared_preferences_foundation/ResourceBundle-shared_preferences_foundation_privacy-shared_preferences_foundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = shared_preferences_foundation_privacy;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		54C01A75A2AD840246A4BCCDF8720720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72102735CB00DBC3DCF429255687514 /* connectivity_plus.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/connectivity_plus/connectivity_plus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/connectivity_plus/connectivity_plus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/connectivity_plus/connectivity_plus.modulemap";
+				PRODUCT_MODULE_NAME = connectivity_plus;
+				PRODUCT_NAME = connectivity_plus;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57AF8E001ABF465EFEA43D67032E69E6 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBE03366913F26F3529F9E31EE05E3F /* shared_preferences_foundation.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64-release/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/shared_preferences_foundation/shared_preferences_foundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/shared_preferences_foundation/shared_preferences_foundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/shared_preferences_foundation/shared_preferences_foundation.modulemap";
+				PRODUCT_MODULE_NAME = shared_preferences_foundation;
+				PRODUCT_NAME = shared_preferences_foundation;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		6304CA9D3F6C23CB7283745DEF044804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBE03366913F26F3529F9E31EE05E3F /* shared_preferences_foundation.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64-release/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/shared_preferences_foundation/shared_preferences_foundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/shared_preferences_foundation/shared_preferences_foundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/shared_preferences_foundation/shared_preferences_foundation.modulemap";
+				PRODUCT_MODULE_NAME = shared_preferences_foundation;
+				PRODUCT_NAME = shared_preferences_foundation;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		668CEAAF66FB49922349F854AAC5F016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AE71642E26233997DB5AD32423B235 /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		841B17C3A322478D583F7767BC705CA4 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AE71642E26233997DB5AD32423B235 /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		99E22572A8FFA7BB45BF8D9E5CDB9405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E8AD2E8B75443E12D3D3BD12A9900E /* Pods-RunnerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FE1658D2CACFFCD3DA5430204E38246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728A5ED1DD60BAC8C8F382A87B976F84 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A734648D21C485124F4CA7866CB7B37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B2AC953410975D4FAC01D6592A2813C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE69705B19EA5FFB7A402FFF63ED056 /* FlutterMacOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BD53B19862F90664FE360356A18DA71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8FE152530FBDCE460186B326C1A8FB /* Pods-RunnerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64-release/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C38C56AC8A0B6CDAE880C1F3D00965FD /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		D54AD075843DE89D7130ACC40C1138F4 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E736E0C9C5B73D27B8865E363E2108AC /* Pods-RunnerTests.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64-release/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		D7074DA5536BFDBECB40FD9E1B4F5A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FAB25D088FE10BFCD598BA89EA2332 /* connectivity_plus.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/pankaj/Downloads/flutter/bin/cache/artifacts/engine/darwin-x64-release/FlutterMacOS.xcframework/macos-arm64_x86_64\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/connectivity_plus/connectivity_plus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/connectivity_plus/connectivity_plus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/connectivity_plus/connectivity_plus.modulemap";
+				PRODUCT_MODULE_NAME = connectivity_plus;
+				PRODUCT_NAME = connectivity_plus;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7C18A4BB3A23E3E9BD431BC6F0C4001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE3522BD18406F17F8719EC967A26EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE56E4CDC88025D01CE5D2E8144705D /* FlutterMacOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F52C4A397D87AF75814F553AA8634FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28408F4996BF2833EF8D2BA2DD75FC2 /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ReachabilitySwift";
+				IBSC_MODULE = Reachability;
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ResourceBundle-ReachabilitySwift-ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B44C219778859563AE0B6515258070D /* Build configuration list for PBXNativeTarget "ReachabilitySwift-ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52C4A397D87AF75814F553AA8634FBD /* Debug */,
+				429C4D96666CE8215DDD970A04C9A9C1 /* Profile */,
+				29C7EF5EE2FD6E5A4EAFBC6E4CD96A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2183457B1DAFB5D6CB653F35D68427 /* Build configuration list for PBXNativeTarget "shared_preferences_foundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A6B53B864DB8EEA4C9FC281D68CA7 /* Debug */,
+				57AF8E001ABF465EFEA43D67032E69E6 /* Profile */,
+				6304CA9D3F6C23CB7283745DEF044804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3156968EE64AA60E7C9E348D5AAF9592 /* Build configuration list for PBXNativeTarget "connectivity_plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C01A75A2AD840246A4BCCDF8720720 /* Debug */,
+				057F326B610B427D8F39944EEBCA4E98 /* Profile */,
+				D7074DA5536BFDBECB40FD9E1B4F5A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A734648D21C485124F4CA7866CB7B37C /* Debug */,
+				C38C56AC8A0B6CDAE880C1F3D00965FD /* Profile */,
+				D7C18A4BB3A23E3E9BD431BC6F0C4001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624022EE1C2EAB1C3CC38699E1368C5F /* Build configuration list for PBXAggregateTarget "FlutterMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3522BD18406F17F8719EC967A26EB4 /* Debug */,
+				1D6BBE705B4E14F77C21AB0FECA78CC3 /* Profile */,
+				B2AC953410975D4FAC01D6592A2813C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93FE463016A8F6A183A1AD3D9FA6BAD /* Build configuration list for PBXNativeTarget "Pods-RunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E22572A8FFA7BB45BF8D9E5CDB9405 /* Debug */,
+				D54AD075843DE89D7130ACC40C1138F4 /* Profile */,
+				BD53B19862F90664FE360356A18DA71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6FC4A717BF063B3A35DBBC73050C12 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE1658D2CACFFCD3DA5430204E38246 /* Debug */,
+				0B411C172141D2B6F20924EDBEE932DE /* Profile */,
+				5219B37A56F18A93710CA4ED1C955FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17A48EDE662E18B8F11A49C732E3436 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2080CD090CDFE177C40901B8042988E7 /* Debug */,
+				841B17C3A322478D583F7767BC705CA4 /* Profile */,
+				668CEAAF66FB49922349F854AAC5F016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C9BB04E5C4ABD481D5E55D143F90FC /* Build configuration list for PBXNativeTarget "shared_preferences_foundation-shared_preferences_foundation_privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5274EBE643C20E51DC374144BBAE7AA2 /* Debug */,
+				4EF00AD8CAF9E3B5F33E984C0DB089BA /* Profile */,
+				2425177F482F33D9E324657CE9E9C870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
